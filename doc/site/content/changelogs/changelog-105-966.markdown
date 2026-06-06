@@ -34,7 +34,7 @@ The changelog since release 105-941 **until minor release 105-966**, which happe
 ### Original heightmap
 Lua can now change what is considered the "original" heightmap, mostly for random map generators. These new interfaces work the same as the existing ones for the current heightmap.
 * `Spring.AdjustOriginalHeightMap(x1, z1[, x2, z2], height) → nil`, adds height.
-* Spring.LevelOriginalHeightMap(x1, z1[, x2, z2], height) → nil`, sets height.
+* `Spring.LevelOriginalHeightMap(x1, z1[, x2, z2], height) → nil`, sets height.
 * `Spring.RevertOriginalHeightMap(x1, z1[, x2, z2], factor) → nil`, reverts to the "original original" heightmap as defined in the map file; `factor` is a 0-1 value that interpolates between the current and the map file height.
 * `Spring.SetOriginalHeightMapFunc(func, arg1, arg2, ...) → number totalChange`, calls a function that can call one of the two functions below.
 * `Spring.AddOriginalHeightMap(x, z, height) → newHeight`, can only be called from `Spring.SetOriginalHeightMapFunc` and adds height at given co-ordinates.
