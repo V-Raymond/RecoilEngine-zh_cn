@@ -19,7 +19,7 @@ author = 'beherith'
 
 ![image](https://github.com/beyond-all-reason/RecoilEngine/assets/109391/830e5c6e-b37f-48ab-9adc-cc297cefff46)
 
-8. Analyze profile.
+7. Analyze profile.
 
 ## Building with Tracy support
 
